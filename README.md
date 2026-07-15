@@ -130,8 +130,11 @@ To access the conversation associated with a support ticket, the user must click
 
 The ticket will remain open for as long as needed until the issue has been resolved. A ticket is automatically closed if no messages have been exchanged for five consecutive days. Additionally, a support team representative may close the ticket manually at any time once the issue is considered resolved.
 
-<img width="1865" height="952" alt="image" src="https://github.com/user-attachments/assets/107e878f-41e3-4e26-92b2-ac0ee003cb4e" />
+<img width="1865" height="952" alt="image" src="https://github.com/user-attachments/assets/107e878f-41e3-4e26-92b2-ac0ee003cb4e" /><br>
 
+In the **FishBot Conversations** section, users can access the history of their conversations with the website's support chatbot, **FishBot**.
+
+<img width="1862" height="956" alt="image" src="https://github.com/user-attachments/assets/e1bc8647-7049-4e65-8168-02062da5d7a4" />
 
 
 </details>
