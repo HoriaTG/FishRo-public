@@ -126,9 +126,12 @@ To open a ticket, the user must select a category (**Order**, **Product**, **Pay
 
 <img width="1867" height="957" alt="image" src="https://github.com/user-attachments/assets/7528522f-d2c4-4f4c-9d3b-1ce29c6daca0" /><br>
 
+To access the conversation associated with a support ticket, the user must click on the desired ticket. A separate page will open, where the user can send additional messages if necessary or reply to messages received from the support team.
 
+The ticket will remain open for as long as needed until the issue has been resolved. A ticket is automatically closed if no messages have been exchanged for five consecutive days. Additionally, a support team representative may close the ticket manually at any time once the issue is considered resolved.
 
-<img width="1867" height="960" alt="image" src="https://github.com/user-attachments/assets/e2cea4db-afef-427c-be89-b556fdcbaab1" />
+<img width="1865" height="952" alt="image" src="https://github.com/user-attachments/assets/107e878f-41e3-4e26-92b2-ac0ee003cb4e" />
+
 
 
 </details>
