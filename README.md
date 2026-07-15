@@ -99,6 +99,18 @@ After logging in, the **Login** and **Register** buttons disappear and are repla
 
 On the **My Account** page, users have access to a wide range of useful information and features related to their account. For this reason, creating an account on the website is highly recommended. The first available section is **Account Details**, where users can upload a profile picture and enter their full name, phone number, delivery address, city, county, and postal code. This information is stored in the database and is automatically retrieved whenever a new order is placed.
 
-<img width="1865" height="953" alt="image" src="https://github.com/user-attachments/assets/16f503bb-1bdb-47e6-b786-57978985a145" />
+<img width="1865" height="953" alt="image" src="https://github.com/user-attachments/assets/16f503bb-1bdb-47e6-b786-57978985a145" /><br>
+
+In the **My Orders** section, users can track the status of their orders. Each order is assigned a unique order number, and users can view the date and time when the order was placed, as well as the products included in it.
+
+An order can have one of four statuses: **Submitted**, **Confirmed**, **In Transit**, and **Delivered**. Immediately after an order is placed, its status is set to **Submitted**. The order must then be reviewed and confirmed by an administrator, at which point its status changes from **Submitted** to **Confirmed**. Once the order has been handed over to the courier, its status changes to **In Transit**. Finally, after the order has been successfully delivered, its status becomes **Delivered**, indicating that the order has been completed.
+
+<img width="1870" height="955" alt="image" src="https://github.com/user-attachments/assets/acc2aef7-dc7d-4ba7-a8fc-8df7ab9e2db4" /><br>
+
+If the user wishes to view one of his orders in greater detail, he can click on the desired order, and a window containing all the order's information will appear on the screen.
+
+<img width="1871" height="952" alt="image" src="https://github.com/user-attachments/assets/a7ac4038-8188-48fc-b46e-02d5c2f4dbea" />
+
+
 
 </details>
