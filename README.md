@@ -95,5 +95,10 @@ After logging in, the **Login** and **Register** buttons disappear and are repla
 <img width="377" height="163" alt="image" src="https://github.com/user-attachments/assets/5974d336-a57a-4474-886b-d5ace7c5bbdd" />
 <img width="376" height="197" alt="image" src="https://github.com/user-attachments/assets/326fc463-447c-44ab-81b4-931b6f398eca" />
 
+### Account Page
+
+On the **My Account** page, users have access to a wide range of useful information and features related to their account. For this reason, creating an account on the website is highly recommended. The first available section is **Account Details**, where users can upload a profile picture and enter their full name, phone number, delivery address, city, county, and postal code. This information is stored in the database and is automatically retrieved whenever a new order is placed.
+
+<img width="1865" height="953" alt="image" src="https://github.com/user-attachments/assets/16f503bb-1bdb-47e6-b786-57978985a145" />
 
 </details>
