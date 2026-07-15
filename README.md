@@ -88,9 +88,7 @@ If the user chooses to create a new account, he can click the **Register** butto
 
 If the user chooses to log in to an existing account, the same window used for registration is displayed. The user must enter the account's email address and password. If the password is incorrect or the email address is not found in the database, the user will not be able to log in.
 
-<img width="1852" height="943" alt="image" src="https://github.com/user-attachments/assets/7d6719b5-c62d-44e2-8d8b-4e0f526fa749" />
-
-<br>
+<img width="1852" height="943" alt="image" src="https://github.com/user-attachments/assets/7d6719b5-c62d-44e2-8d8b-4e0f526fa749" /><br>
 
 After logging in, the **Login** and **Register** buttons disappear and are replaced by a new button displaying the user's account information, along with a button that provides access to the user's most recent notifications.
 
