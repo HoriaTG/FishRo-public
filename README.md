@@ -109,8 +109,22 @@ An order can have one of four statuses: **Submitted**, **Confirmed**, **In Trans
 
 If the user wishes to view one of his orders in greater detail, he can click on the desired order, and a window containing all the order's information will appear on the screen.
 
-<img width="1867" height="953" alt="image" src="https://github.com/user-attachments/assets/50e0ec57-3ad3-4c24-916e-c1f10dc4d17e" />
+<img width="1867" height="953" alt="image" src="https://github.com/user-attachments/assets/50e0ec57-3ad3-4c24-916e-c1f10dc4d17e" /><br>
 
+In the **Favorites** section, users can view all the products they have marked as favorites.
+
+<img width="1868" height="956" alt="image" src="https://github.com/user-attachments/assets/5d0cf84a-dfc0-4f0e-b899-26ad16e4d775" /><br>
+
+In the **Stock Wishlist** section, users can view the products they wanted to purchase but that were out of stock at the time. When one of these products becomes available again, users who have added it to their wishlist will receive a notification informing them that the product is back in stock.
+
+<img width="1870" height="950" alt="image" src="https://github.com/user-attachments/assets/4d962cbc-74d4-413f-96f2-084bf85245bc" /><br>
+
+In the **My Tickets** section, users can contact the support team to resolve issues of any kind. To prevent spam, a new support ticket can only be created once every 12 hours, and the remaining cooldown time is always visible to the user.
+
+To open a ticket, the user must select a category (**Order**, **Product**, **Payment**, **Delivery**, or **Other**) and describe the issue in the corresponding text box. After clicking the **Open Ticket** button, the newly created ticket will appear on the right side of the page.
+
+
+<img width="1867" height="957" alt="image" src="https://github.com/user-attachments/assets/7528522f-d2c4-4f4c-9d3b-1ce29c6daca0" />
 
 
 
