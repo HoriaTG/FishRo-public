@@ -66,6 +66,9 @@ The application also includes an administrative dashboard where moderators and a
 <details>
 <summary><strong>Demo</strong></summary>
 
-Place your demo video, GIF, and screenshots here.
+When someone visits the website, they are welcomed by the Home page, which serves as the main landing page. It features engaging images and informative content that highlight what the website offers: a wide variety of products, fast delivery, efficient communication, and reliable, friendly customer support.
+
+<img width="1841" height="926" alt="image" src="https://github.com/user-attachments/assets/4ee0c161-183f-40dd-8f4c-9f4751452afd" />
+
 
 </details>
