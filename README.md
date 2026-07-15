@@ -124,8 +124,11 @@ In the **My Tickets** section, users can contact the support team to resolve iss
 To open a ticket, the user must select a category (**Order**, **Product**, **Payment**, **Delivery**, or **Other**) and describe the issue in the corresponding text box. After clicking the **Open Ticket** button, the newly created ticket will appear on the right side of the page.
 
 
-<img width="1867" height="957" alt="image" src="https://github.com/user-attachments/assets/7528522f-d2c4-4f4c-9d3b-1ce29c6daca0" />
+<img width="1867" height="957" alt="image" src="https://github.com/user-attachments/assets/7528522f-d2c4-4f4c-9d3b-1ce29c6daca0" /><br>
 
+
+
+<img width="1867" height="960" alt="image" src="https://github.com/user-attachments/assets/e2cea4db-afef-427c-be89-b556fdcbaab1" />
 
 
 </details>
