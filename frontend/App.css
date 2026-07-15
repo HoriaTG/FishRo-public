@@ -1,0 +1,260 @@
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  isolation: isolate;
+}
+
+/* fundal global mai premium */
+#root::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(59, 130, 246, 0.18), transparent 22%),
+    radial-gradient(circle at 85% 16%, rgba(168, 85, 247, 0.15), transparent 20%),
+    radial-gradient(circle at 52% 82%, rgba(34, 211, 238, 0.10), transparent 24%),
+    linear-gradient(180deg, #0f1012 0%, #181a1f 45%, #101114 100%);
+  background-attachment: fixed;
+}
+
+/* strat foarte subtil de lumină / haze */
+#root::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 30% 35%, rgba(255, 255, 255, 0.035), transparent 18%),
+    radial-gradient(circle at 70% 55%, rgba(255, 255, 255, 0.025), transparent 20%);
+  mix-blend-mode: screen;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms ease, transform 300ms ease;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  transform: scale(1.03);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+
+
+.logo-text {
+  font-weight: 800;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+
+  background: linear-gradient(90deg, #ffffff, #60a5fa, #ffffff);
+  background-clip: text;
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 4s linear infinite, glowPulse 2.5s ease-in-out infinite;
+
+  transition: transform 0.2s ease;
+}
+
+/* gradient care se mișcă */
+@keyframes gradientMove {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+/* glow pulsant */
+@keyframes glowPulse {
+  0% {
+    text-shadow:
+      0 0 6px rgba(59,130,246,0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 16px rgba(59,130,246,0.9),
+      0 0 30px rgba(59,130,246,0.6);
+  }
+  100% {
+    text-shadow:
+      0 0 6px rgba(59,130,246,0.4);
+  }
+}
+
+/* mic efect la hover */
+.logo-text:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+.logo-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  overflow: visible;
+  min-width: 110px;
+  min-height: 42px;
+}
+
+.logo-text {
+  position: relative;
+  z-index: 2;
+  font-weight: 800;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+
+  background: linear-gradient(90deg, #ffffff, #60a5fa, #ffffff);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 4s linear infinite, glowPulse 2.5s ease-in-out infinite;
+}
+
+.fish-swim {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  font-size: 15px;
+  line-height: 1;
+  pointer-events: none;
+  filter: drop-shadow(0 0 6px rgba(96, 165, 250, 0.35));
+  transform-origin: center center;
+  animation: fishAroundText 4.2s linear infinite;
+}
+
+@keyframes fishAroundText {
+  /* stânga jos → urcă spre dreapta */
+  0% {
+    transform: translate(-72px, 4px) scaleX(-1) rotate(-6deg);
+    opacity: 0.95;
+  }
+
+  18% {
+    transform: translate(-38px, 1px) scaleX(-1) rotate(0deg);
+    opacity: 0.55;
+  }
+
+  28% {
+    transform: translate(-10px, -1px) scaleX(-1) rotate(4deg);
+    opacity: 0;
+  }
+
+  /* trece prin spate */
+  42% {
+    transform: translate(18px, -3px) scaleX(-1) rotate(0deg);
+    opacity: 0;
+  }
+
+  54% {
+    transform: translate(36px, -5px) scaleX(-1) rotate(-4deg);
+    opacity: 0.55;
+  }
+
+62% {
+  transform: translate(48px, -11px) scaleX(-1) rotate(-8deg);
+}
+
+68% {
+  transform: translate(50px, -11px) scaleX(-0.55) rotate(-14deg);
+}
+
+74% {
+  transform: translate(50px, -11px) scaleX(0.55) rotate(14deg);
+}
+
+  /* vine înapoi și coboară spre stânga */
+  84% {
+    transform: translate(22px, -4px) scaleX(1) rotate(-3deg);
+    opacity: 1;
+  }
+
+  90% {
+    transform: translate(-10px, -1px) scaleX(1) rotate(2deg);
+    opacity: 1;
+  }
+
+  95% {
+    transform: translate(-42px, 2px) scaleX(1) rotate(8deg);
+    opacity: 1;
+  }
+
+  98% {
+    transform: translate(-62px, 4px) scaleX(1) rotate(12deg);
+    opacity: 1;
+  }
+
+  /* reintră în stânga jos */
+  100% {
+    transform: translate(-72px, 4px) scaleX(-1) rotate(-6deg);
+    opacity: 0.95;
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 16px rgba(59, 130, 246, 0.9),
+      0 0 30px rgba(59, 130, 246, 0.6);
+  }
+  100% {
+    text-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
+  }
+}

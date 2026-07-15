@@ -1,0 +1,22 @@
+# Backend secrets and generated files
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+.venv/
+venv/
+
+# Frontend generated files
+node_modules/
+dist/
+.vite/
+
+# Logs and OS/editor noise
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

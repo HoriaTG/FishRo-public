@@ -1,0 +1,33 @@
+.my-tickets-primary-btn {
+  width: fit-content;
+  margin-top: 8px;
+  padding: 12px 16px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.92), rgba(124, 58, 237, 0.86));
+  color: #ffffff;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow:
+    0 0 18px rgba(59, 130, 246, 0.24),
+    0 0 26px rgba(168, 85, 247, 0.16);
+  transform: translateZ(0) scale(1);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    filter 0.18s ease;
+}
+
+.my-tickets-primary-btn:hover:not(:disabled) {
+  filter: brightness(1.08);
+  transform: translateZ(0) scale(1.02);
+  box-shadow:
+    0 0 20px rgba(59, 130, 246, 0.3),
+    0 0 32px rgba(168, 85, 247, 0.2);
+}
+
+.my-tickets-primary-btn:disabled {
+  opacity: 0.62;
+  cursor: not-allowed;
+  box-shadow: none;
+}

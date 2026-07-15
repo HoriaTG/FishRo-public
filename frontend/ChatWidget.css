@@ -1,0 +1,619 @@
+.fishbot-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1200;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-radius: 999px;
+  padding: 14px 18px;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.96));
+  color: #e5f0ff;
+  box-shadow:
+    0 10px 35px rgba(0, 0, 0, 0.45),
+    0 0 14px rgba(59, 130, 246, 0.18),
+    0 0 22px rgba(168, 85, 247, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.fishbot-launcher:hover {
+  transform: translateY(-2px);
+}
+
+.fishbot-launcher-icon {
+  font-size: 18px;
+}
+
+.fishbot-launcher-text {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.fishbot-widget {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1200;
+  width: min(390px, calc(100vw - 24px));
+  height: min(640px, calc(100vh - 32px));
+  display: flex;
+  flex-direction: column;
+  border-radius: 22px;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(10, 14, 22, 0.98), rgba(18, 24, 38, 0.98));
+  border: 1px solid rgba(59, 130, 246, 0.22);
+  box-shadow:
+    0 18px 50px rgba(0, 0, 0, 0.65),
+    0 0 18px rgba(59, 130, 246, 0.18),
+    0 0 30px rgba(168, 85, 247, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  overscroll-behavior: contain;
+}
+
+.fishbot-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.9));
+}
+
+.fishbot-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #f8fbff;
+}
+
+.fishbot-subtitle {
+  margin-top: 2px;
+  font-size: 12px;
+  color: rgba(219, 234, 254, 0.72);
+}
+
+.fishbot-close {
+  width: 38px;
+  min-width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(248, 113, 113, 0.42);
+  background: linear-gradient(135deg, rgba(220, 38, 38, 0.92), rgba(153, 27, 27, 0.9));
+  color: transparent;
+  cursor: pointer;
+  font-size: 0;
+  line-height: 1;
+  box-shadow: 0 0 16px rgba(239, 68, 68, 0.24);
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
+}
+
+.fishbot-close::before {
+  content: "X";
+  display: inline-block;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 900;
+  line-height: 1;
+  transition: transform 0.16s ease;
+}
+
+.fishbot-close:hover {
+  border-color: rgba(248, 113, 113, 0.68);
+  transform: translateY(-1px);
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.32);
+}
+
+.fishbot-close:hover::before {
+  transform: scale(1.12);
+}
+
+.fishbot-body {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 18px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fishbot-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.fishbot-body::-webkit-scrollbar-thumb {
+  background: rgba(96, 165, 250, 0.28);
+  border-radius: 999px;
+}
+
+.fishbot-date-divider {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.fishbot-date-divider span {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  color: rgba(219, 234, 254, 0.8);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(96, 165, 250, 0.15);
+}
+
+.fishbot-message-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.fishbot-message-row.from-user {
+  justify-content: flex-end;
+}
+
+.fishbot-message-row.from-bot {
+  justify-content: flex-start;
+}
+
+.fishbot-avatar {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(96, 165, 250, 0.34);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.22), rgba(124, 58, 237, 0.18));
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.14);
+}
+
+.fishbot-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.fishbot-avatar span {
+  color: #dbeafe;
+  font-weight: 900;
+  font-size: 13px;
+}
+
+.fishbot-message-bubble {
+  position: relative;
+  max-width: 86%;
+  border-radius: 18px;
+  padding: 12px 14px 25px;
+  line-height: 1.45;
+  font-size: 14px;
+}
+
+.bot-bubble {
+  background: rgba(32, 62, 58, 0.96);
+  border: 1px solid rgba(96, 165, 250, 0.14);
+  border-top-left-radius: 6px;
+  color: #e5eefc;
+}
+
+.user-bubble {
+  background: rgba(43, 58, 137, 0.96);
+  border: 1px solid rgba(147, 197, 253, 0.2);
+  border-top-right-radius: 6px;
+  color: #ffffff;
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.18);
+}
+
+.bot-bubble::before,
+.user-bubble::before {
+  content: "";
+  position: absolute;
+  bottom: 11px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.bot-bubble::before {
+  left: -8px;
+  border-right: 9px solid rgba(32, 62, 58, 0.96);
+}
+
+.user-bubble::before {
+  right: -8px;
+  border-left: 9px solid rgba(43, 58, 137, 0.96);
+}
+
+.fishbot-message-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+  padding-right: 34px;
+}
+
+.fishbot-message-time {
+  position: absolute;
+  right: 12px;
+  bottom: 7px;
+  color: rgba(226, 232, 240, 0.66);
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.fishbot-typing {
+  opacity: 0.82;
+  font-style: italic;
+}
+
+.fishbot-products {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.fishbot-product-card {
+  width: 100%;
+  text-align: left;
+  border-radius: 16px;
+  padding: 12px;
+  border: 1px solid rgba(96, 165, 250, 0.14);
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.82));
+  color: #f8fbff;
+}
+
+.fishbot-product-name {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.fishbot-product-meta {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: rgba(191, 219, 254, 0.78);
+  margin-bottom: 8px;
+}
+
+.fishbot-product-price-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fishbot-product-old-price {
+  font-size: 12px;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.fishbot-product-price {
+  font-weight: 800;
+  color: #93c5fd;
+}
+
+.fishbot-product-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: rgba(168, 85, 247, 0.16);
+  border: 1px solid rgba(168, 85, 247, 0.28);
+  color: #e9d5ff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.fishbot-login-btn {
+  margin-top: 12px;
+  border-radius: 12px;
+  padding: 10px 12px;
+  border: 1px solid rgba(96, 165, 250, 0.24);
+  background: rgba(59, 130, 246, 0.12);
+  color: #dbeafe;
+}
+
+.fishbot-footer {
+  position: relative;
+  padding: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(10, 14, 22, 0.94);
+}
+
+.fishbot-footer-static {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fishbot-quick-row {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 18px;
+  top: -50px;
+  z-index: 3;
+}
+
+.fishbot-quick-toggle {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border-radius: 999px;
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  background:
+    linear-gradient(
+      145deg,
+      rgba(15, 23, 42, 0.96),
+      rgba(30, 41, 59, 0.92)
+    );
+  color: #dbeafe;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.04),
+    0 0 10px rgba(59, 130, 246, 0.12);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease;
+  outline: none;
+}
+
+.fishbot-quick-toggle:hover {
+  transform: translateY(-1px);
+  border-color: rgba(96, 165, 250, 0.58);
+  background: rgba(59, 130, 246, 0.12);
+  box-shadow:
+    0 0 14px rgba(59, 130, 246, 0.22),
+    0 0 18px rgba(168, 85, 247, 0.12);
+}
+
+.fishbot-quick-toggle.is-open {
+  transform: translateY(-1px);
+  border-color: rgba(226, 232, 240, 0.82);
+  background: rgba(59, 130, 246, 0.12);
+  box-shadow:
+    0 0 14px rgba(59, 130, 246, 0.22),
+    0 0 18px rgba(168, 85, 247, 0.12);
+}
+
+.fishbot-quick-toggle:focus,
+.fishbot-quick-toggle:focus-visible {
+  outline: none;
+}
+
+.fishbot-quick-toggle::after {
+  content: "Întrebări rapide";
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 8px);
+  width: max-content;
+  max-width: 180px;
+  padding: 7px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(96, 165, 250, 0.24);
+  background: rgba(15, 23, 42, 0.96);
+  color: #e5eefc;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(4px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.fishbot-quick-toggle:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fishbot-footer-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: absolute;
+  right: 14px;
+  bottom: calc(100% + 54px);
+  z-index: 3;
+  width: min(300px, calc(100% - 28px));
+  max-height: 190px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 8px 4px 8px 8px;
+  border: 1px solid rgba(96, 165, 250, 0.22);
+  border-radius: 16px;
+  background: rgba(10, 14, 22, 0.96);
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.34),
+    0 0 16px rgba(59, 130, 246, 0.14);
+}
+
+.fishbot-footer-actions::-webkit-scrollbar {
+  width: 6px;
+}
+
+.fishbot-footer-actions::-webkit-scrollbar-thumb {
+  background: rgba(96, 165, 250, 0.28);
+  border-radius: 999px;
+}
+
+.fishbot-footer-chip {
+  width: 100%;
+  border-radius: 12px;
+  padding: 9px 12px;
+  font-size: 12px;
+  text-align: left;
+  border: 1px solid rgba(96, 165, 250, 0.22);
+  background: rgba(255, 255, 255, 0.04);
+  color: #dbeafe;
+}
+
+.fishbot-footer-chip:hover {
+  border-color: rgba(96, 165, 250, 0.45);
+  background: rgba(59, 130, 246, 0.1);
+}
+
+/* =========================================
+   FISHBOT INPUT AREA
+========================================= */
+
+.fishbot-input-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  margin-top: 0;
+}
+
+.fishbot-input {
+  flex: 1;
+  min-width: 0;
+
+  height: 46px;
+
+  border-radius: 16px;
+
+  border: 1px solid rgba(59, 130, 246, 0.22);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(15, 23, 42, 0.95),
+      rgba(30, 41, 59, 0.92)
+    );
+
+  color: #e5eefc;
+
+  padding: 0 16px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,0.04),
+    0 0 10px rgba(59,130,246,0.08);
+}
+
+.fishbot-input::placeholder {
+  color: rgba(226, 232, 240, 0.42);
+}
+
+.fishbot-input:focus {
+  border-color: rgba(96, 165, 250, 0.58);
+
+  box-shadow:
+    0 0 0 3px rgba(59,130,246,0.12),
+    0 0 16px rgba(59,130,246,0.18);
+
+  transform: translateY(-1px);
+}
+
+.fishbot-send-btn {
+  height: 46px;
+
+  padding: 0 18px;
+
+  border-radius: 16px;
+
+  border: 1px solid rgba(59,130,246,0.28);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(37, 99, 235, 0.95),
+      rgba(124, 58, 237, 0.92)
+    );
+
+  color: white;
+
+  font-size: 14px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+
+  box-shadow:
+    0 0 12px rgba(59,130,246,0.18),
+    0 0 18px rgba(168,85,247,0.12);
+}
+
+.fishbot-send-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+
+  border-color: rgba(96,165,250,0.5);
+
+  box-shadow:
+    0 0 16px rgba(59,130,246,0.28),
+    0 0 24px rgba(168,85,247,0.18);
+}
+
+.fishbot-send-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.fishbot-input:disabled,
+.fishbot-footer-chip:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 640px) {
+  .fishbot-widget {
+    right: 12px;
+    bottom: 12px;
+    width: calc(100vw - 24px);
+    height: min(78vh, 640px);
+  }
+
+  .fishbot-launcher {
+    right: 12px;
+    bottom: 12px;
+  }
+
+  .fishbot-message-bubble {
+    max-width: 92%;
+  }
+
+  .fishbot-footer-actions {
+    max-height: 160px;
+  }
+
+  .fishbot-input-form {
+    gap: 8px;
+  }
+
+  .fishbot-send-btn {
+    flex: 0 0 auto;
+  }
+}
