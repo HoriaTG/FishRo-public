@@ -68,7 +68,8 @@ The application also includes an administrative dashboard where moderators and a
 
 When someone visits the website, they are welcomed by the Home page, which serves as the main landing page. It features engaging images and informative content that highlight what the website offers: a wide variety of products, fast delivery, efficient communication, and reliable, friendly customer support.
 
-<img width="1841" height="926" alt="image" src="https://github.com/user-attachments/assets/4ee0c161-183f-40dd-8f4c-9f4751452afd" />
+<img width="1868" height="947" alt="image" src="https://github.com/user-attachments/assets/8bb12c66-6769-4446-abc8-2961d0c4324e" />
+
 
 
 </details>
