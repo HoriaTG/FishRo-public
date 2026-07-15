@@ -134,7 +134,19 @@ The ticket will remain open for as long as needed until the issue has been resol
 
 In the **FishBot Conversations** section, users can access the history of their conversations with the website's support chatbot, **FishBot**.
 
-<img width="1862" height="956" alt="image" src="https://github.com/user-attachments/assets/e1bc8647-7049-4e65-8168-02062da5d7a4" />
+<img width="1862" height="956" alt="image" src="https://github.com/user-attachments/assets/e1bc8647-7049-4e65-8168-02062da5d7a4" /><br>
+
+In the **Notification History** section, users can view all the notifications they have received over time. Notifications are sent in the following situations: when the status of an order changes, when the user receives a reply to a support ticket, or when an administrator intentionally sends a notification, such as a gift voucher or a general announcement.
+
+<img width="1865" height="950" alt="image" src="https://github.com/user-attachments/assets/27f54901-a677-445c-b6b0-55b888b2c38a" /><br>
+
+In the **Statistics** section, users can view a well-organized overview of their yearly activity. For each year, they can see the total number of orders placed, the number of products purchased, the total amount spent on orders, the amount of money saved through vouchers, and the number of vouchers used. To provide a clear visualization of user activity throughout the year, the statistics are displayed using a monthly chart.
+
+<img width="1868" height="952" alt="image" src="https://github.com/user-attachments/assets/e99296cc-1bd0-4148-b4d2-d160311c660d" /><br>
+
+The final section, **Change Password**, allows users to update their account password whenever necessary. For security reasons, users must first enter their current password before setting a new one. The new password must be entered twice to prevent accidental password changes caused by typing errors.
+
+<img width="1870" height="950" alt="image" src="https://github.com/user-attachments/assets/8c0db19d-7491-4e12-bf25-3af5311cc92a" />
 
 
 </details>
