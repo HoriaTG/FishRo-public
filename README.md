@@ -78,4 +78,17 @@ At this point, users have two available options: they can either create a new ac
 
 <img width="1856" height="955" alt="image" src="https://github.com/user-attachments/assets/a1fd456e-165b-419c-a601-ec3a66532da3" />
 
+### Register 
+
+If the user chooses to create a new account, he can click the **Register** button, which opens a registration window on the current page while blurring the background. The email address must be in a valid email format and be unique, while the username must also be unique and different from all existing usernames stored in the database.
+
+<img width="1860" height="946" alt="image" src="https://github.com/user-attachments/assets/0debfb9b-885d-494e-be92-4b37ed12fbb3" />
+
+### Login 
+
+If the user chooses to log in to an existing account, the same window used for registration is displayed. The user must enter the account's email address and password. If the password is incorrect or the email address is not found in the database, the user will not be able to log in.
+
+
+<img width="1852" height="943" alt="image" src="https://github.com/user-attachments/assets/7d6719b5-c62d-44e2-8d8b-4e0f526fa749" />
+
 </details>
