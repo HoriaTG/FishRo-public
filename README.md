@@ -109,7 +109,8 @@ An order can have one of four statuses: **Submitted**, **Confirmed**, **In Trans
 
 If the user wishes to view one of his orders in greater detail, he can click on the desired order, and a window containing all the order's information will appear on the screen.
 
-<img width="1871" height="952" alt="image" src="https://github.com/user-attachments/assets/a7ac4038-8188-48fc-b46e-02d5c2f4dbea" />
+<img width="1867" height="953" alt="image" src="https://github.com/user-attachments/assets/50e0ec57-3ad3-4c24-916e-c1f10dc4d17e" />
+
 
 
 
