@@ -72,5 +72,10 @@ When someone visits the website, they are welcomed by the Home page, which serve
 
 <img width="1872" height="952" alt="image" src="https://github.com/user-attachments/assets/b999528f-325e-4d77-834d-063c03d8f753" />
 
+### Store
+
+At this point, users have two available options: they can either create a new account or log in to an existing one, or they can choose to enter the store directly. If they decide to access the store without logging in, they will be redirected to the Products page. In addition to displaying the available products, this page includes a search bar for filtering products by name, category-based filters, and a price filter.
+
+<img width="1856" height="955" alt="image" src="https://github.com/user-attachments/assets/a1fd456e-165b-419c-a601-ec3a66532da3" />
 
 </details>
