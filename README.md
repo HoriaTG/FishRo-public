@@ -153,9 +153,11 @@ The final section, **Change Password**, allows users to update their account pas
 One of the most interesting features of the project is **FishBot**, a virtual AI assistant available 24/7. FishBot is trained to answer questions related to the website and its services. When users open the chat with FishBot, they have two options: they can either select one of the predefined quick questions or type their own question. FishBot is capable of answering a wide range of questions; however, its responses always prioritize recommendations and products available in the store.
 
 
-<img width="353" height="582" alt="image" src="https://github.com/user-attachments/assets/ab9a87ec-0fb7-4726-bdd9-36e7d5e80cfa" />
-<img width="357" height="577" alt="image" src="https://github.com/user-attachments/assets/b6e622c9-dc9c-43ac-b685-5ce04fdb4270" />
-<img width="353" height="577" alt="image" src="https://github.com/user-attachments/assets/c5502ebe-a4ad-4868-a2ea-f2e66f12c4a0" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ab9a87ec-0fb7-4726-bdd9-36e7d5e80cfa" width="220" alt="image" />
+  <img src="https://github.com/user-attachments/assets/b6e622c9-dc9c-43ac-b685-5ce04fdb4270" width="220" alt="image" />
+  <img src="https://github.com/user-attachments/assets/c5502ebe-a4ad-4868-a2ea-f2e66f12c4a0" width="220" alt="image" />
+</p>
 
 
 
