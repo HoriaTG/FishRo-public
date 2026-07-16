@@ -152,13 +152,21 @@ The final section, **Change Password**, allows users to update their account pas
 
 One of the most interesting features of the project is **FishBot**, a virtual AI assistant available 24/7. FishBot is trained to answer questions related to the website and its services. When users open the chat with FishBot, they have two options: they can either select one of the predefined quick questions or type their own question. FishBot is capable of answering a wide range of questions; however, its responses always prioritize recommendations and products available in the store.
 
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ab9a87ec-0fb7-4726-bdd9-36e7d5e80cfa" width="270" alt="image" />
   <img src="https://github.com/user-attachments/assets/b6e622c9-dc9c-43ac-b685-5ce04fdb4270" width="270" alt="image" />
   <img src="https://github.com/user-attachments/assets/c5502ebe-a4ad-4868-a2ea-f2e66f12c4a0" width="270" alt="image" />
 </p>
 
+### Add to Cart
+
+To add a product to the shopping cart, users have two available options. The most common and convenient method is to add the product directly from the homepage by clicking the **Add to Cart** button displayed on each product. Once the product has been added, the user receives a cart notification and can see the total number of items currently in the shopping cart.
+
+<img width="1861" height="952" alt="image" src="https://github.com/user-attachments/assets/ce5b33b0-1860-410f-aa0c-9eb6c2f66f37" /><br>
+
+When the user hovers over the shopping cart, a dropdown list appears below the cart button displaying all the products currently in the cart, the price of each product (or the total price for that product based on the selected quantity), and the overall order total. Additionally, users can click on any product in the cart list to view its details again.
+
+<img width="1858" height="952" alt="image" src="https://github.com/user-attachments/assets/1fa00c39-9446-470b-ad17-e5852ea6a4ba" />
 
 
 </details>
