@@ -154,9 +154,9 @@ One of the most interesting features of the project is **FishBot**, a virtual AI
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ab9a87ec-0fb7-4726-bdd9-36e7d5e80cfa" width="280" alt="image" />
-  <img src="https://github.com/user-attachments/assets/b6e622c9-dc9c-43ac-b685-5ce04fdb4270" width="280" alt="image" />
-  <img src="https://github.com/user-attachments/assets/c5502ebe-a4ad-4868-a2ea-f2e66f12c4a0" width="280" alt="image" />
+  <img src="https://github.com/user-attachments/assets/ab9a87ec-0fb7-4726-bdd9-36e7d5e80cfa" width="270" alt="image" />
+  <img src="https://github.com/user-attachments/assets/b6e622c9-dc9c-43ac-b685-5ce04fdb4270" width="270" alt="image" />
+  <img src="https://github.com/user-attachments/assets/c5502ebe-a4ad-4868-a2ea-f2e66f12c4a0" width="270" alt="image" />
 </p>
 
 
