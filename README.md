@@ -168,5 +168,20 @@ When the user hovers over the shopping cart, a dropdown list appears below the c
 
 <img width="1858" height="952" alt="image" src="https://github.com/user-attachments/assets/1fa00c39-9446-470b-ad17-e5852ea6a4ba" />
 
+### Product Page
+
+The second option for adding a product to the shopping cart is from the product's dedicated page. Users can access this page by clicking on the product they wish to view in more detail. Each product includes between three and six images in its gallery, customer reviews, an **Add to Favorites** button, an **Add to Wishlist** button when the product is out of stock, a detailed description, technical specifications, and, optionally, a product video.
+
+<img width="1858" height="945" alt="image" src="https://github.com/user-attachments/assets/7517c2b4-8673-454c-9ed7-a81f55881323" /><br>
+
+To leave a review, users must meet two essential requirements: they must have previously purchased the product and have a registered account. A review may consist of a star rating, a written comment, or both. Reviews are publicly visible and can be edited at any time if the user wishes to update his feedback.
+
+<img width="1862" height="953" alt="image" src="https://github.com/user-attachments/assets/73ccdc67-cdd6-4fb3-9026-c5117d300e6d" /><br>
+
+
+<img width="626" height="446" alt="image" src="https://github.com/user-attachments/assets/e9d0efea-65f4-4834-a2a0-d9767c26b691" />
+<img width="636" height="445" alt="image" src="https://github.com/user-attachments/assets/d06a8250-23ff-4f2f-8776-614f7232ad0e" />
+
+
 
 </details>
