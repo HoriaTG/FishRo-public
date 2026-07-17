@@ -178,6 +178,8 @@ To leave a review, users must meet two essential requirements: they must have pr
 
 <img width="1862" height="953" alt="image" src="https://github.com/user-attachments/assets/73ccdc67-cdd6-4fb3-9026-c5117d300e6d" /><br>
 
+One of the most interesting features of this page is the image zoom functionality. When users hover over an image, a magnifying glass with a **+** icon appears. Clicking on the image zooms in on the area where the user clicked. The **+** icon then changes to a **−** icon, and users can move the mouse to pan across the enlarged image. Clicking again restores the image to its original size.
+
 <p>
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/e9d0efea-65f4-4834-a2a0-d9767c26b691" />
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/d06a8250-23ff-4f2f-8776-614f7232ad0e" />
