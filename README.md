@@ -207,9 +207,19 @@ Below the personal information section is the **Order Summary**, which displays 
 
 Finally, the user selects a payment method and accepts the terms and conditions before placing the order.
 
-
+<p>
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/8eebdbac-eee4-463f-b8ef-ac3aea4c8281" />
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/f369d967-13ec-40aa-a3a5-2a3c14420ffb" />
+</p>
+
+If the user chooses **Cash on Delivery** as the payment method, an informational dialog will appear after the order has been placed, reminding the user that payment will be made to the courier upon delivery. After confirming the dialog, the user is redirected back to the store and is notified that the order has been placed successfully.
+
+<p>
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/47a50cce-29d9-466e-bcaa-e72dfdf3aaa9" />
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/f79f717d-c961-406c-ba0f-6f2f1cc7970e" />
+</p>
+
+
 
 
 </details>
