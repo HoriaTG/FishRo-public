@@ -190,7 +190,13 @@ One of the most interesting features of this page is the image zoom functionalit
 On the **Shopping Cart** page, users can view all the products they have added to their cart, the quantity of each item, and the total cost of their order. They can also modify the quantity of any product in the cart. Depending on their preferences, users may proceed to checkout, continue shopping, or empty the shopping cart.
 
 
-<img width="1867" height="952" alt="image" src="https://github.com/user-attachments/assets/d34217f8-7184-4351-96d1-18b179a1655b" />
+<img width="1867" height="952" alt="image" src="https://github.com/user-attachments/assets/85c98ee5-dcd1-4b9d-9524-19b9999e604c" /><p>
+
+If the user chooses to proceed to checkout, he will be redirected to a dedicated checkout page. If he chooses to continue shopping, he will be redirected back to the store, and the contents of the shopping cart will remain unchanged. If the user selects the option to empty the cart, a confirmation dialog will appear with two options: **Yes** and **No**. Selecting **Yes** will clear all items from the shopping cart, while selecting **No** will cancel the action and keep the cart unchanged.
+
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/82c1509e-eeeb-4aea-8141-533db3fecd50" />
+<img width="410"  alt="image" src="https://github.com/user-attachments/assets/a909da91-b95a-4f4c-95a2-352228a993e5" />
+
 
 
 </details>
