@@ -226,4 +226,14 @@ If the users choose to pay by **credit or debit card**, they are redirected to a
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/00098799-2de9-49e5-8195-d402e0395c77" />
 </p>
 
+### Admin Interface
+
+To log in to an administrator account, a user must have valid administrator credentials (email and password). Unlike regular user accounts, which can be created without limitation, an administrator account cannot be created directly; instead, an existing user account must be promoted to the administrator role.
+The main difference between an administrator account and a regular user account lies in the navigation menu. While regular users have a **Notifications** button represented by a bell icon, administrator accounts replace this button with a **Dashboard** button, which provides access to additional features, management tools, and administrative information.
+
+<img width="1857" height="952" alt="image" src="https://github.com/user-attachments/assets/a2e95abc-1612-463a-a63b-deebcf40e61a" /><br>
+
+
+
+
 </details>
