@@ -234,7 +234,13 @@ The main difference between an administrator account and a regular user account 
 
 <img width="1857" height="952" alt="image" src="https://github.com/user-attachments/assets/a2e95abc-1612-463a-a63b-deebcf40e61a" /><br>
 
+Whenever a number appears on the **Dashboard** button with a red background, it indicates that new information requires an administrator's attention. When the dashboard menu is expanded, the notification badge is also displayed next to the corresponding submenu item, helping administrators identify and resolve pending tasks more quickly and efficiently.
 
+For example, in the **Order History** section, administrators can view the most recent orders, including the customers' contact information, order IDs, purchased products, order dates, and current order statuses. After reviewing an order, the administrator can update its status. If all the information is valid and the order is approved, the status can be changed from **Submitted** to **Confirmed**. Once an order has been **Delivered** or **Cancelled**, its status can no longer be modified through the administrator interface.
 
+<p>
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/10d14f11-0561-4318-bc38-7fa842d2e833" />
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/f38dc615-e7ae-4333-8d66-bf2723151103" />
+</p>
 
 </details>
