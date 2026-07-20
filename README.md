@@ -243,4 +243,11 @@ For example, in the **Order History** section, administrators can view the most 
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/f38dc615-e7ae-4333-8d66-bf2723151103" />
 </p>
 
+In the **Tickets** submenu, administrators have access to all support tickets created over time, regardless of whether they are open or closed. Whenever a user creates a new ticket, a notification is sent to the administrator's dashboard.
+
+To respond to a ticket, the administrator must assign a support representative (which may be themselves). The assigned person is then responsible for resolving the issue described in the ticket. Administrators can mark a ticket as **read**, which clears the corresponding notification, or reopen a ticket that has previously been closed.
+
+<img width="1853" height="951" alt="image" src="https://github.com/user-attachments/assets/59cc0e82-ff19-4bfa-84e6-c72b832782f5" />
+
+
 </details>
