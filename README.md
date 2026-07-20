@@ -194,9 +194,10 @@ On the **Shopping Cart** page, users can view all the products they have added t
 
 If the user chooses to proceed to checkout, he will be redirected to a dedicated checkout page. If he chooses to continue shopping, he will be redirected back to the store, and the contents of the shopping cart will remain unchanged. If the user selects the option to empty the cart, a confirmation dialog will appear with two options: **Yes** and **No**. Selecting **Yes** will clear all items from the shopping cart, while selecting **No** will cancel the action and keep the cart unchanged.
 
+<p>
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/82c1509e-eeeb-4aea-8141-533db3fecd50" />
 <img width="410"  alt="image" src="https://github.com/user-attachments/assets/a909da91-b95a-4f4c-95a2-352228a993e5" />
-
+</p>
 
 
 </details>
