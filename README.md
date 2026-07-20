@@ -199,5 +199,17 @@ If the user chooses to proceed to checkout, he will be redirected to a dedicated
 <img width="410"  alt="image" src="https://github.com/user-attachments/assets/a909da91-b95a-4f4c-95a2-352228a993e5" />
 </p>
 
+### Checkout Page
+
+On the **Checkout** page, users can complete the order placement process. If they have a registered account and have already filled in their profile information, the first section of the checkout form is automatically completed using the personal details stored in their profile.
+
+Below the personal information section is the **Order Summary**, which displays the selected products and the total cost. The final amount consists of the total value of the products plus the shipping cost. If the user has a gift voucher, it can also be applied in this section.
+
+Finally, the user selects a payment method and accepts the terms and conditions before placing the order.
+
+
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/8eebdbac-eee4-463f-b8ef-ac3aea4c8281" />
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/f369d967-13ec-40aa-a3a5-2a3c14420ffb" />
+
 
 </details>
