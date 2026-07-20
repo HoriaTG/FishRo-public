@@ -185,5 +185,12 @@ One of the most interesting features of this page is the image zoom functionalit
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/d06a8250-23ff-4f2f-8776-614f7232ad0e" />
 </p>
 
+### Cart Page
+
+On the **Shopping Cart** page, users can view all the products they have added to their cart, the quantity of each item, and the total cost of their order. They can also modify the quantity of any product in the cart. Depending on their preferences, users may proceed to checkout, continue shopping, or empty the shopping cart.
+
+
+<img width="1867" height="952" alt="image" src="https://github.com/user-attachments/assets/d34217f8-7184-4351-96d1-18b179a1655b" />
+
 
 </details>
