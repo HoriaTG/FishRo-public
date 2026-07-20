@@ -219,7 +219,11 @@ If the user chooses **Cash on Delivery** as the payment method, an informational
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/f79f717d-c961-406c-ba0f-6f2f1cc7970e" />
 </p>
 
+If the users choose to pay by **credit or debit card**, they are redirected to a dedicated payment page where they can enter their card details. After submitting the payment information and completing the order, the users are redirected back to the store and are notified that the order has been placed successfully.
 
-
+<p>
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/b40e2fa8-1977-4512-9748-b513b794714d" />
+<img width="410" alt="image" src="https://github.com/user-attachments/assets/00098799-2de9-49e5-8195-d402e0395c77" />
+</p>
 
 </details>
